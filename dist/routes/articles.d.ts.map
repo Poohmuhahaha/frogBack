@@ -1,0 +1,1 @@
+{"version":3,"file":"articles.d.ts","sourceRoot":"","sources":["../../src/routes/articles.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,OAAO,EAAY,MAAM,SAAS,CAAC;AACpD,OAAO,EAAE,IAAI,EAAE,MAAM,IAAI,CAAC;AAI1B,MAAM,WAAW,WAAY,SAAQ,OAAO;IAC1C,IAAI,CAAC,EAAE,GAAG,CAAC;CACZ;AAED,wBAAgB,oBAAoB,CAAC,IAAI,EAAE,IAAI,GAAG,MAAM,CA4dvD"}

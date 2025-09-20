@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": "localhost",
+    "database": "academic_content_dev",
+    "user": "postgres",
+    "password": "password",
+    "port": 5432,
+    "multipleStatements": true
+  },
+  "test": {
+    "driver": "pg",
+    "host": "localhost",
+    "database": "academic_content_test",
+    "user": "postgres",
+    "password": "password",
+    "port": 5432,
+    "multipleStatements": true
+  },
+  "production": {
+    "driver": "pg",
+    "host": {"ENV": "DATABASE_HOST"},
+    "database": {"ENV": "DATABASE_NAME"},
+    "user": {"ENV": "DATABASE_USER"},
+    "password": {"ENV": "DATABASE_PASSWORD"},
+    "port": {"ENV": "DATABASE_PORT"},
+    "ssl": true,
+    "multipleStatements": true
+  }
+}
